@@ -54,7 +54,7 @@
                         <a href=""> Contacter-Nous </a>
                     </li>
                     <li>
-                        <a href="tel:+213550810307">0550 810 307</a>
+                        <a href="tel:+213550810307">0781 872 253</a>
                     <li>
                         <a href="mailto:contact@moud.dz">support@moud.com</a>
                     </li>

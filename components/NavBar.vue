@@ -12,27 +12,27 @@
             </v-row>
         </v-col>
         <v-col md="1" align="center">
-           <a class="link" href="">
+           <a class="link" href="/">
                ACCUEIL
            </a>
         </v-col>
         <v-col md="1" align="center">
-            <a  class="link" href="">
+            <a  class="link" href="/client">
                CLIENT
            </a>      
         </v-col>
         <v-col md="1" align="center">
-            <a  class="link" href="">
+            <a  class="link" href="/partenaire">
                PARTENAIRE
            </a>
         </v-col>
         <v-col md="1" align="center">
-            <a  class="link" href="">
+            <a  class="link" href="/faq">
                FAQ
            </a>
         </v-col>
         <v-col md="1.5" align="center">
-            <a  class="link" href="">
+            <a  class="link" href="/contactus">
                NOUS CONTACTER
            </a>
         </v-col>
