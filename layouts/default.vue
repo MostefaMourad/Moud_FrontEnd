@@ -7,7 +7,7 @@
         <nuxt />
     </v-main>
     <!---- Footer ----------------------->
-      
+    <footer-component> </footer-component>   
   </v-app>
 </template>
 
