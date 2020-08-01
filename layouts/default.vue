@@ -1,13 +1,13 @@
 <template>
   <v-app dark>
     <!---- Navigation Bar --------------->
-    <nav-bar></nav-bar>
+    <nav-bar></nav-bar> 
     <!---- Content ---------------------->
     <v-main >
         <nuxt />
     </v-main>
     <!---- Footer ----------------------->
-    <footer-component> </footer-component>   
+     <footer-component> </footer-component> 
   </v-app>
 </template>
 

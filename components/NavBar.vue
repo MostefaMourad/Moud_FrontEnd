@@ -1,7 +1,6 @@
 <template>
     <div>
     <v-app-bar
-      absolute
       dark
     >
     <v-container>
