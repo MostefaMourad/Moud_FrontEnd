@@ -6,111 +6,93 @@
     >
     <v-container>
         <v-row>
-           <v-col align="center">
+            <v-col align="center">
                <img src="~/assets/logo_page.png" height="100" alt="">
-               <h1> Nous Contacter </h1>
+               <h1> PARTENAIRE </h1>
+               <div id="call"> DEVENEZ ENTREPRISE-PARTENAIRE </div>
+               <p> Il vous permettra de poster et créer des enqûetes, missions et sondages et de suivre l'avancement de ces tâches , vous pourrez collecter des données validées et filtrées à un prix raisonnable . </p>
             </v-col>
         </v-row>
         <v-row>
-            <v-col md="6">
-                <v-card outlined>
-                    <v-card-title>
-                        <v-row>
-                            <v-col align="center" class="text">
-                                Ecrivez-Nous
-                            </v-col>
-                        </v-row>
-                    </v-card-title>
-                    <v-card-text>
-                        <v-col align="centered">
-
-                        </v-col>
-                        <v-row align="center">
-                            <v-col md="6">
-                                <v-text-field
-                                    label="Nom"
-                                    v-model="nom"
-                                    outlined
-                                ></v-text-field>
-                            </v-col>
-                            <v-col md="6">
-                                <v-text-field
-                                    label="Prénom"
-                                    v-model="prenom"
-                                    outlined
-                                ></v-text-field>
-                            </v-col>
-                        </v-row>
-                        <v-row>
-                            <v-col align="center">
-                                <v-text-field
-                                    label="Adresse email"
-                                    v-model="email"
-                                    outlined
-                                ></v-text-field>
-                            </v-col>
-                        </v-row>
-                        <v-row>
-                            <v-col align="center">
-                                <v-textarea
-                                outlined
-                                clearable
-                                counter
-                                v-model="message"
-                                label="Votre message ici..."
-                                ></v-textarea>
-                            </v-col>
-                        </v-row>
-                    </v-card-text>
-                    <v-card-actions>
-                            <v-col align=center>
-                                <v-btn width="80%" dark>
-                                    Envoyer
-                                </v-btn>
-                            </v-col>
-                    </v-card-actions>
-                </v-card>
+            <v-col align="center">
+                <h2>
+                   Comment ?
+                </h2>
+                <p>
+                    Pour rejoindre notre communauté de entreprises-partenaires, rien de plus simple ! Il suffit de  suivre les étapes suivantes :
+                </p>
             </v-col>
-            <v-col md="6">
-                <v-card
-                dark
-                elevation-1
+        </v-row>
+        <v-row>
+            <v-col md="6" align="center">
+                <v-img
+                :src="require('../assets/entreprise_1.jpg')"
+                aspect-ratio="1"
+                max-height="400"
                 >
-                <v-card-title>
-                    <v-row>
-                        <v-col align="center">
-                           MOUD CONTACT
-                        </v-col>
-                    </v-row>
-                </v-card-title>
-                <v-card-text>
-                
-                </v-card-text>
-                <v-card-actions>
-                    <v-col align="left">
-                        <h2>
-                        Support@mou.com
-                        </h2>
-                        <h2>
-                            +213 781872253
+                </v-img>
+            </v-col>
+            <v-col md="6" align="center">
+                <v-row align="center">
+                    <v-spacer></v-spacer>
+                    <v-col md="2" align="right">
+                        <v-img
+                        :src="require('../assets/entreprise_2.png')"
+                        class="icon"
+                        >
+                        </v-img>
+                    </v-col>
+                    <v-col md="9" align="left">
+                        <h2 class="number">
+                            +213781872253
                         </h2>
                     </v-col>
-                </v-card-actions>
-                </v-card>
+                </v-row>
+                <h2> Contacter notre admin .</h2>
+                <p class="contact"> contactez notre administrateur ,partagez vos informations et coordonnées , et un compte vous sera crée dans notre espace web .</p>
             </v-col>
+        </v-row>
+        <v-row>
+            <v-col align="center">
+                <h1 class="fel"> félicitation </h1>
+                <p>
+                   Vous pouvez se connecter au site web et commencer à visualiser vos tâches et leurs progrés .
+                </p>
+            </v-col>
+        </v-row>
+        <v-row>
+            <v-col align="right">
+                <img src="~/assets/entreprise_3.png" height="700" alt="">
+            </v-col>
+        </v-row>
+       <v-row class="opinions">
+           <v-col align="center">
+               <p> Si vous avez terminé votre inscription , vous pouvez vous connecter ici :</p>
+               <v-btn
+               outlined
+               color="primary"
+               rounded
+               x-large
+               >
+               SE CONNECTER
+               </v-btn>
+           </v-col>
+       </v-row>
+        <v-row>
+            <flip-component></flip-component>
         </v-row>
     </v-container>
     </v-layout>
 </template>
 
 <script>
+import FlipComponent from '@/components/FlipComponent.vue';
     export default {
         data() {
             return {
-                nom:'',
-                prenom:'',
-                email:'',
-                message:'',
+                components: {
+                    FlipComponent,
+                },       
             }
         },
     }
@@ -119,14 +101,49 @@
 <style scoped>
 h1{
     content: "";
-    width: 270px;
+    width: 200px;
     display: block;
     border-bottom: 5px solid #00adb5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-transform: uppercase;
 }
-.text{
+p{
+    width: 80%;
+    font-size: 32px;
+    margin: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
+    font-size: 32px;
+}
+.services{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 24px;
+    width: 93%;
+}
+.opinions{
+    background-color: #FAFAFA;
+} 
+.opinion{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 16px;
+    width: 93%;
+}
+#call{
+    margin-top: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 32px;
+}
+.number{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+}
+.fel{
+    content: "";
+    width: 210px;
+    display: block;
+    border-bottom: 5px solid #00adb5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;  
 }
 </style>
