@@ -1,15 +1,132 @@
 <template>
-    <div>
+    <v-layout
+        column
+        justify-center
+        align-center
+    >
+    <v-container>
+        <v-row>
+           <v-col align="center">
+               <img src="~/assets/logo_page.png" height="100" alt="">
+               <h1> Nous Contacter </h1>
+            </v-col>
+        </v-row>
+        <v-row>
+            <v-col md="6">
+                <v-card outlined>
+                    <v-card-title>
+                        <v-row>
+                            <v-col align="center" class="text">
+                                Ecrivez-Nous
+                            </v-col>
+                        </v-row>
+                    </v-card-title>
+                    <v-card-text>
+                        <v-col align="centered">
 
-    </div>
+                        </v-col>
+                        <v-row align="center">
+                            <v-col md="6">
+                                <v-text-field
+                                    label="Nom"
+                                    v-model="nom"
+                                    outlined
+                                ></v-text-field>
+                            </v-col>
+                            <v-col md="6">
+                                <v-text-field
+                                    label="Prénom"
+                                    v-model="prenom"
+                                    outlined
+                                ></v-text-field>
+                            </v-col>
+                        </v-row>
+                        <v-row>
+                            <v-col align="center">
+                                <v-text-field
+                                    label="Adresse email"
+                                    v-model="email"
+                                    outlined
+                                ></v-text-field>
+                            </v-col>
+                        </v-row>
+                        <v-row>
+                            <v-col align="center">
+                                <v-textarea
+                                outlined
+                                clearable
+                                counter
+                                v-model="message"
+                                label="Votre message ici..."
+                                ></v-textarea>
+                            </v-col>
+                        </v-row>
+                    </v-card-text>
+                    <v-card-actions>
+                            <v-col align=center>
+                                <v-btn width="80%" dark>
+                                    Envoyer
+                                </v-btn>
+                            </v-col>
+                    </v-card-actions>
+                </v-card>
+            </v-col>
+            <v-col md="6">
+                <v-card
+                dark
+                elevation-1
+                >
+                <v-card-title>
+                    <v-row>
+                        <v-col align="center">
+                           MOUD CONTACT
+                        </v-col>
+                    </v-row>
+                </v-card-title>
+                <v-card-text>
+                
+                </v-card-text>
+                <v-card-actions>
+                    <v-col align="left">
+                        <h2>
+                        Support@mou.com
+                        </h2>
+                        <h2>
+                            +213 781872253
+                        </h2>
+                    </v-col>
+                </v-card-actions>
+                </v-card>
+            </v-col>
+        </v-row>
+    </v-container>
+    </v-layout>
 </template>
 
 <script>
     export default {
-        
+        data() {
+            return {
+                nom:'',
+                prenom:'',
+                email:'',
+                message:'',
+            }
+        },
     }
 </script>
 
 <style scoped>
-
+h1{
+    content: "";
+    width: 270px;
+    display: block;
+    border-bottom: 5px solid #00adb5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+}
 </style>

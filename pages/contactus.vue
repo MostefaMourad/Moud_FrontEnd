@@ -22,6 +22,9 @@
                         </v-row>
                     </v-card-title>
                     <v-card-text>
+                        <v-col align="centered">
+
+                        </v-col>
                         <v-row align="center">
                             <v-col md="6">
                                 <v-text-field
@@ -81,7 +84,7 @@
                     </v-row>
                 </v-card-title>
                 <v-card-text>
-
+                
                 </v-card-text>
                 <v-card-actions>
                     <v-col align="left">
