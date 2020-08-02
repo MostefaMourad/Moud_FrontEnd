@@ -7,7 +7,9 @@
     <v-row align="center">
         <v-col md="3" align="center">
             <v-row>
-              <img src="~/assets/logo_nav.png" height="50" alt="">
+              <a href="/">
+                 <img src="~/assets/logo_nav.png" height="50" alt="">
+              </a>
             </v-row>
         </v-col>
         <v-col md="1" align="center">

@@ -73,6 +73,7 @@
                color="primary"
                rounded
                x-large
+               to="/partner/login"
                >
                SE CONNECTER
                </v-btn>
