@@ -14,12 +14,7 @@ export default {
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
-  */
-
-  router: {
-    base: '/moud/'
-  },
-  
+  */  
   head: {
     titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
