@@ -84,7 +84,7 @@
                     </v-row>
                 </v-card-title>
                 <v-card-text>
-                <gmap-map :center="center" :map-type-id="mapTypeId" :zoom="5">
+                <gmap-map :center="center" :map-type-id="mapTypeId" :zoom="14">
                 <gmap-marker
                     v-for="(item, index) in markers"
                     :key="index"
@@ -121,7 +121,7 @@
                 center: { lat: 35.6911100, lng: -0.6416700 },
                 mapTypeId: "terrain",
                 markers: [
-                    { position: { lat: 35.73, lng: -0.75 } },
+                    { position: { lat: 35.6911100, lng: -0.6416700 } },
                     { position: { lat: 35.65, lng: -0.616667 } }
                 ]
             }
