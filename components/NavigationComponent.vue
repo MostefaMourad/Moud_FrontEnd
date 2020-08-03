@@ -14,7 +14,7 @@
         </v-col>
         <v-sapcer></v-sapcer>
         <v-col md="6" align="right">
-             <v-btn color="primary" > 
+             <v-btn color="primary" @click="$router.push('/')"> 
                <v-icon>
                  mdi-logout
                </v-icon>

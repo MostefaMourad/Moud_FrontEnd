@@ -26,6 +26,7 @@
         <v-btn
             color="primary"
             text
+            @click="$router.push('/partner/tache/2')"
         >
             Détails
         </v-btn>
