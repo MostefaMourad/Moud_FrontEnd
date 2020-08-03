@@ -84,12 +84,19 @@
                     </v-row>
                 </v-card-title>
                 <v-card-text>
-                
+                <gmap-map :center="center" :map-type-id="mapTypeId" :zoom="5">
+                <gmap-marker
+                    v-for="(item, index) in markers"
+                    :key="index"
+                    :position="item.position"
+                    @click="center = item.position"
+                />
+                </gmap-map>
                 </v-card-text>
                 <v-card-actions>
                     <v-col align="left">
                         <h2>
-                        Support@mou.com
+                        Support@MOUD.com
                         </h2>
                         <h2>
                             +213 781872253
@@ -111,6 +118,12 @@
                 prenom:'',
                 email:'',
                 message:'',
+                center: { lat: 35.6911100, lng: -0.6416700 },
+                mapTypeId: "terrain",
+                markers: [
+                    { position: { lat: 35.73, lng: -0.75 } },
+                    { position: { lat: 35.65, lng: -0.616667 } }
+                ]
             }
         },
     }
@@ -128,5 +141,10 @@ h1{
 .text{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 32px;
+}
+.vue-map-container {
+  height: 415px;
+  max-width: 992px;
+  width: 100%;
 }
 </style>

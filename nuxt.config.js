@@ -37,6 +37,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    "@/plugins/google-maps",
   ],
   /*
   ** Auto import components
