@@ -41,7 +41,7 @@
             </v-btn>
           </v-toolbar>
         </template>
-        <template v-slot:item.reponses="{ item }">
+        <template>
             <v-btn text @click="dialog = true" color="primary">
               <v-icon>
                 mdi-clipboard-text

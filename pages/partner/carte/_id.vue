@@ -10,7 +10,7 @@
     >
     <v-row>
         <v-col md="9">
-            <gmap-map :center="center" :map-type-id="mapTypeId" :zoom="10">
+            <gmap-map :center="center" :map-type-id="mapTypeId" :zoom="12">
                 <gmap-marker
                     v-for="(item, index) in markers"
                     :key="index"
@@ -55,6 +55,11 @@
                     <v-row>
                         <img src="https://picsum.photos/500/300?image=5" alt="" style="width:95%;">
                     </v-row>
+                    <v-divider
+                        class="mx-4"
+                        :inset="inset"
+                        vertical
+                    ></v-divider>
                     <v-row>
                       <p>
                           Harness value; facilitate channels integrate revolutionary generate ecologies rich-clientAPIs wireless feeds bricks-and-clicks B2C, "synergies empower, productize innovative, user-centred engage granular." Tagclouds user-centred recontextualize podcasts--out-of-the-box compelling create value-added collaborative deliverables sexy interactive morph. 
@@ -133,11 +138,21 @@
         layout:'entreprise',
         data() {
             return {
-                center: { lat: 35.6911100, lng: -0.6416700 },
+                center: { lat: 36.737232, lng: 3.086472 },
                 mapTypeId: "terrain",
                 markers: [
-                    { position: { lat: 35.73, lng: -0.75 } },
-                    { position: { lat: 35.65, lng: -0.616667 } }
+                    { position: { lat: 36.7833302, lng: 3.056166442 } },
+                    { position: { lat: 36.6879389149, lng:  3.20924416302 } },
+                    { position: { lat: 36.800663464, lng:   3.038833178 } },
+                    { position: { lat: 36.7559303096, lng:   3.9904460382 } },
+                    { position: { lat: 36.7999968, lng:   3.0499998 } },
+                    { position: { lat: 36.784496862, lng:   3.058499766 } },
+                    { position: { lat: 36.784330196, lng:   3.056333108 } },
+                    { position: { lat: 36.7763, lng: 3.0585 } },
+                    { position: { lat: 36.7333304, lng: 3.0999996 } },
+                    { position: { lat: 36.749997, lng: 3.0333332 } },
+                    { position: { lat: 36.818830058, lng: 3.15916603 } },
+
                 ],
                 inset:false,
                 dialog:false,

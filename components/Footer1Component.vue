@@ -102,12 +102,12 @@
                     {
                       id:1,
                       titre:"C'est quoi Moud Partenaire ?",
-                      link:"", 
+                      link:"/partenaire", 
                     },
                     {
                       id:2,
                       titre:"Questions Fréquentes",
-                      link:"", 
+                      link:"/faq", 
                     },
                 ],
             }
