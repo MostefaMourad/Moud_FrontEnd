@@ -90,24 +90,24 @@
                     {
                       id:1,
                       titre:"C'est quoi MOUD ?",
-                      link:"/client", 
+                      link:"/moud/client", 
                     },
                     {
                       id:2,
                       titre:"Questions Fréquentes",
-                      link:"/faq", 
+                      link:"/moud/faq", 
                     },
                 ],
                 items1:[
                     {
                       id:1,
                       titre:"C'est quoi Moud Partenaire ?",
-                      link:"/partenaire", 
+                      link:"/moud/partenaire", 
                     },
                     {
                       id:2,
                       titre:"Questions Fréquentes",
-                      link:"/faq", 
+                      link:"/moud/faq", 
                     },
                 ],
             }

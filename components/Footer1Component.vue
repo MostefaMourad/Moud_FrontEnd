@@ -90,24 +90,24 @@
                     {
                       id:1,
                       titre:"Termes et Conditions",
-                      link:"", 
+                      link:"/moud", 
                     },
                     {
                       id:2,
                       titre:"Charte de Confidentialité",
-                      link:"", 
+                      link:"/moud", 
                     },
                 ],
                 items1:[
                     {
                       id:1,
                       titre:"C'est quoi Moud Partenaire ?",
-                      link:"/partenaire", 
+                      link:"/moud/partenaire", 
                     },
                     {
                       id:2,
                       titre:"Questions Fréquentes",
-                      link:"/faq", 
+                      link:"/moud/faq", 
                     },
                 ],
             }
