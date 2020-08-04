@@ -3,7 +3,7 @@
         <v-row align="center"
                justify="center" >
             <v-col md="6" align="center">
-                <img src="~/assets/login_1.png" alt="" height="500">  
+                <img src="~/assets/login_page.png" alt="" height="500">  
                 <h1 class="grey--text"> Besoin d'aide ? <a href="/contactus" class="link"> Nous Contacter</a> </h1> 
                 </v-col>
             <v-col md="6" align="center">
