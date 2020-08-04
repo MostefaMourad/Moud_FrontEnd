@@ -25,7 +25,7 @@
           <v-container>
               <v-row class="container-fluid text-center text-md-left">
                 <v-col class="col-md-3 mt-md-0 mt-3">
-                    <img src="~/assets/logo_footer.png" class="image" height="150" alt="">
+                    <img src="~/assets/logo_footer.jpg" class="image" height="150" alt="">
                 </v-col>
                 <hr class="clearfix w-100 d-md-none pb-3">
                 <v-col class="col-md-3 mb-md-0 mb-3">
@@ -90,24 +90,24 @@
                     {
                       id:1,
                       titre:"C'est quoi MOUD ?",
-                      link:"/MoudFrontEnd/client", 
+                      link:"/Moud_FrontEnd/client", 
                     },
                     {
                       id:2,
                       titre:"Questions Fréquentes",
-                      link:"/MoudFrontEnd/faq", 
+                      link:"/Moud_FrontEnd/faq", 
                     },
                 ],
                 items1:[
                     {
                       id:1,
                       titre:"C'est quoi Moud Partenaire ?",
-                      link:"/MoudFrontEnd/partenaire", 
+                      link:"/Moud_FrontEnd/partenaire", 
                     },
                     {
                       id:2,
                       titre:"Questions Fréquentes",
-                      link:"/MoudFrontEnd/faq", 
+                      link:"/Moud_FrontEnd/faq", 
                     },
                 ],
             }

@@ -7,33 +7,33 @@
     <v-row align="center">
         <v-col md="3" align="center">
             <v-row>
-              <a href="/MoudFrontEnd/">
+              <a href="/Moud_FrontEnd/">
                  <img src="~/assets/logo_nav.png" height="50" alt="">
               </a>
             </v-row>
         </v-col>
         <v-col md="1" align="center">
-           <a class="link" href="/MoudFrontEnd/">
+           <a class="link" href="/Moud_FrontEnd/">
                ACCUEIL
            </a>
         </v-col>
         <v-col md="1" align="center">
-            <a  class="link" href="/MoudFrontEnd/client">
+            <a  class="link" href="/Moud_FrontEnd/client">
                CLIENT
            </a>      
         </v-col>
         <v-col md="1" align="center">
-            <a  class="link" href="/MoudFrontEnd/partenaire">
+            <a  class="link" href="/Moud_FrontEnd/partenaire">
                PARTENAIRE
            </a>
         </v-col>
         <v-col md="1" align="center">
-            <a  class="link" href="/MoudFrontEnd/faq">
+            <a  class="link" href="/Moud_FrontEnd/faq">
                FAQ
            </a>
         </v-col>
         <v-col md="1.5" align="center">
-            <a  class="link" href="/MoudFrontEnd/contactus">
+            <a  class="link" href="/Moud_FrontEnd/contactus">
                NOUS CONTACTER
            </a>
         </v-col>

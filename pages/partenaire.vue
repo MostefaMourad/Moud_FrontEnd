@@ -62,7 +62,7 @@
         </v-row>
         <v-row>
             <v-col align="right">
-                <img src="~/assets/entreprise_3.png" height="700" alt="">
+                <img src="~/assets/entreprise_3.jpg" height="700" alt="">
             </v-col>
         </v-row>
        <v-row class="opinions">

@@ -14,7 +14,7 @@
         </v-row>
         <v-row>
             <v-col align="right">
-                <img src="~/assets/client_1.png" height="650" alt="">
+                <img src="~/assets/client_1.jpg" height="650" alt="">
             </v-col>
         </v-row>
         <v-row>
