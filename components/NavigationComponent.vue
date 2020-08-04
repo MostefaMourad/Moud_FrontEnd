@@ -7,7 +7,7 @@
     <v-row align="center">
         <v-col md="6" align="center">
             <v-row>
-              <a href="/moud/partner/accueil">
+              <a href="/MoudFrontEnd/partner/accueil">
                  <img src="~/assets/logo_nav.png" height="50" alt="">
               </a>
             </v-row>
